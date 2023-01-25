@@ -21,6 +21,7 @@ const setCar = asyncHandler(async (req, res) => {
     }
 
     const car = await Car.create({
+        user: req.user.id,
         name : req.body.name,
         type : req.body.type,
         year : req.body.year,

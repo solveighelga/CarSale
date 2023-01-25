@@ -3,6 +3,10 @@ const mongoose = require('mongoose')
 
 
 const carSchema = mongoose.Schema({
+    user : {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+    },
     name: {
         type : String, 
         required: [true , 'Please add a car name']
