@@ -8,7 +8,7 @@ const Car = require('../models/carModel')
 // access : private
 const getCars = asyncHandler(async (req, res) => {
     const cars = await Car.find()
-    res.status(200).json(cars)
+    res.status(200).json(cars) // The getcars function fetches car from mongoDB using mongoose
 })
 
 // desc : set car

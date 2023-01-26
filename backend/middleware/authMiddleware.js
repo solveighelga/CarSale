@@ -9,13 +9,13 @@ const protect = asyncHandler(async (req, res ,next) => {
     if(req.headers.authorization && req.headers.authorization.startsWith('Bearer')){
         try {
             // get token from header (signing this token to this variable)
-            token = req.headers.authorization.split(' ')[1] // the split will turn it into an array
+            token = req.headers.authorization.split(' ')[1] // the split will turn it into an array where bearer is the first item[0] and token is the second item[1] 
 
             // Verify token
             const decoded = jwt.verify(token, process.env.JWT_SECRET)
 
             // Get user from token but skip the password
-            req.user = await User.findById(decoded.id).select('-password')
+            req.user = await User.findById(decoded.id).select('-password') // -password will not include the password
 
             // if something goes wrong we send a 401, not authorized
             next()

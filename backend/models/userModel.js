@@ -12,7 +12,7 @@ const userSchema = mongoose.Schema ({
     email : {
         type: String,
         required: [true, 'Please add an email'],
-        unique: true
+        unique: true // This is unique because we dont want to have to email addresses
     },
     password : {
         type: String,
@@ -20,7 +20,7 @@ const userSchema = mongoose.Schema ({
     },
 },
 {
-    timespamps: true
+    timestamps: true // Timestamps save the current time of the document created and also when it was updated in form of a Date
 })
 
 module.exports = mongoose.model('User', userSchema)
