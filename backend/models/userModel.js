@@ -20,7 +20,7 @@ const userSchema = mongoose.Schema ({
     },
 },
 {
-    timespamps: true
+    timestamps: true
 })
 
 module.exports = mongoose.model('User', userSchema)
