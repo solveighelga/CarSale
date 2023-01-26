@@ -2,6 +2,8 @@ const asyncHandler = require('express-async-handler')
 
 const Car = require('../models/carModel')
 
+const User = require('../models/userModel')
+
 
 // desc : Get cars
 // route : GET /api/cars
@@ -19,9 +21,11 @@ const setCar = asyncHandler(async (req, res) => {
         res.status(400)
         throw new Error('Please add a text field')
     }
+    const user = await User.findById(req.user.id)
 
     const car = await Car.create({
         user: req.user.id,
+        username: user.name,
         name : req.body.name,
         type : req.body.type,
         year : req.body.year,
