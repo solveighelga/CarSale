@@ -73,7 +73,6 @@
 #### Add the id to the url with a / symbol between
 #### Now you are able to update a value
 #### Press Send <sup>Blue button next to the url</sup>
-#### Now to see if it updated you will have to go back to 'GET' and Press Send <sup>Blue button next to the url</sup>
 #### :partying_face: Result: The value you changed should be updated!
 
 ### STEP 7 - DELETING A CAR
