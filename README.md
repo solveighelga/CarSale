@@ -1,18 +1,25 @@
 # Group Project 5 - CarSale :red_car:
 ## About
 #### The project focused mainly on the backend and error handling/defense mechanisms
-## API Documentation. 
+## API Documentation 
 
 ### STEP 1 - Open App
 #### Open (or download) the Postman Desktop App. 
 
-### STEP 2 - URL
+### STEP 2 - CONNECTING TO THE SERVER VIA URL
 #### Enter the following url: xxxxx
+
+### STEP X - "GETTING" all the cars that have been created
 #### Choose 'GET' from the dropdown list next to the url
 #### Press Send (Blue button next to the url)
-#### Result: you should now see all of the cars that have been posted.  
+#### :partying_face: Result: you should now see all of the cars that have been posted.  
 
-### STEP 3 - POSTING A CAR
+### STEP X - CREATING A USER
+#### Open a new window, enter the url again but remove cars and change the ending to users
+#### Choose 'POST' from the dropdown list next to the url
+#### 
+
+### STEP X - POSTING A CAR
 #### Now choose 'POST' in the dropdown menu next to the url.
 #### Below choose 'Body' and below that choose 'x-wwww-urlencoded'
 #### Now we are able to post a car but first we have to have some information.
@@ -26,12 +33,4 @@
 ##### :ballot_box_with_check: km
 ##### :ballot_box_with_check: price
 ##### :ballot_box_with_check: photo  
-
-### STEP 4
-####
-### STEP 5
-####
-### STEP 6
-####
-### STEP 7
-####
+#### Now you are able to add a 'VALUE' to your keys, example/ :ballot_box_with_check: name SUBARU
