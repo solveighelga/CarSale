@@ -81,4 +81,5 @@
 #### Locate the id from the 'GET' result
 #### Add the id to the url with a / symbol between
 #### Now you are able to delete the 'POST' that belongs to the id
+#### Press Send <sup>Blue button next to the url</sup>
 #### :partying_face: Result: The value you changed should be deleted and no longer visable in the 'GET' results!
