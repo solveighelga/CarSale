@@ -69,7 +69,7 @@
 <sup>make sure you are on the car ulr where you made a 'POST' before</sup>
 #### Choose 'PUT' in the dropdown menu next to the url.
 #### To be able to update you need authentication, this is where the **car id** comes in.
-#### Locate the id from the 'GET' result
+#### Locate the id from the 'GET' result <sup>only copy the text inside the quotation marks "_id": " **copy this number** "</sup>
 #### Add the id to the url with a / symbol between
 #### Now you are able to update a value
 #### Press Send <sup>Blue button next to the url</sup>
