@@ -35,6 +35,7 @@
 #### Add the following to 'KEY':
 ##### :ballot_box_with_check: email
 ##### :ballot_box_with_check: password
+##### Enter the email address and password you created before
 #### Press Send <sup>Blue button next to the url</sup>
 #### :partying_face: Result: Congrats! you are now logged in as a user and are able to 'POST' a car if you can see your id, name, email and token.
 
