@@ -6,11 +6,9 @@ const {getCars, setCar, updateCar, deleteCar} = require('../controllers/carsCont
 
 const { protect } = require('../middleware/authMiddleware')
 
-const {postLimiter} = require('../middleware/limiters')
-
 router.get('/', getCars)
 
-router.post('/',protect, postLimiter, setCar,)
+router.post('/',protect, setCar)
 
 router.put('/:id',protect, updateCar )
 

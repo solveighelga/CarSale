@@ -7,7 +7,9 @@ const carSchema = mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'
     },
+
     username : String,
+    
     name: {
         type : String, 
         required: [true , 'Please add a car name']
