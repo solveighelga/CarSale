@@ -1,14 +1,17 @@
-# Group Project 5 - CarSale
+# Group Project 5 - CarSale :red_car:
 ## About
 #### The project focused mainly on the backend and error handling/defense mechanisms
-## API Documentation
+## API Documentation. 
+
 ### STEP 1 - Open App
-#### Open (or download) the Postman Desktop App
+#### Open (or download) the Postman Desktop App. 
+
 ### STEP 2 - URL
 #### Enter the following url: xxxxx
 #### Choose 'GET' from the dropdown list next to the url
 #### Press Send (Blue button next to the url)
-#### Result: you should now see all of the cars that have been posted.
+#### Result: you should now see all of the cars that have been posted.  
+
 ### STEP 3 - POSTING A CAR
 #### Now choose 'POST' in the dropdown menu next to the url.
 #### Below choose 'Body' and below that choose 'x-wwww-urlencoded'
@@ -22,13 +25,13 @@
 ##### :ballot_box_with_check: engine
 ##### :ballot_box_with_check: km
 ##### :ballot_box_with_check: price
-##### :ballot_box_with_check: photo
+##### :ballot_box_with_check: photo  
 
+### STEP 4
+####
 ### STEP 5
 ####
 ### STEP 6
 ####
 ### STEP 7
-####
-### STEP 8
 ####
