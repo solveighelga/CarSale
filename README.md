@@ -72,7 +72,7 @@
 #### Now you are able to update a value
 #### Press Send <sup>Blue button next to the url</sup>
 #### Now to see if it updated you will have to go back to 'GET' and Press Send <sup>Blue button next to the url</sup>
-#### :partying_face: Result: The value you changes should be updated!
+#### :partying_face: Result: The value you changed should be updated!
 
 ### STEP 7 - DELETING A CAR
 <sup>make sure you are on the car ulr where you made a 'PUT' before</sup>
@@ -81,3 +81,4 @@
 #### Locate the id from the 'GET' result
 #### Add the id to the url with a / symbol between
 #### Now you are able to delete the 'POST' that belongs to the id
+#### :partying_face: Result: The value you changed should be deleted and no longer visable in the 'GET' results!
