@@ -84,3 +84,4 @@
 #### Now you are able to delete the 'POST' that belongs to the id
 #### Press Send <sup>Blue button next to the url</sup>
 #### :partying_face: Result: The post you made should now be replaced with only the id number and it should no longer be visable in the 'GET' results!
+<sup>remember to remove the id number from the url when you want to 'GET' cars</sup>
