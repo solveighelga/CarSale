@@ -14,15 +14,15 @@
 #### Below choose 'Body' and below that choose 'x-wwww-urlencoded'
 #### Now we are able to post a car but first we have to have some information.
 #### Add the following to 'KEY':
-### :ballot_box_with_check: name
-### :ballot_box_with_check: type
-:ballot_box_with_check: year
-:ballot_box_with_check: color
-:ballot_box_with_check: gear
-:ballot_box_with_check: engine
-:ballot_box_with_check: km
-:ballot_box_with_check: price
-:ballot_box_with_check: photo
+##### :ballot_box_with_check: name
+##### :ballot_box_with_check: type
+##### :ballot_box_with_check: year
+##### :ballot_box_with_check: color
+##### :ballot_box_with_check: gear
+##### :ballot_box_with_check: engine
+##### :ballot_box_with_check: km
+##### :ballot_box_with_check: price
+##### :ballot_box_with_check: photo
 
 ### STEP 5
 ####
