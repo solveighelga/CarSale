@@ -40,6 +40,7 @@
 #### :partying_face: Result: Congrats! you are now logged in as a user and are able to 'POST' a car if you can see your id, name, email and token.
 
 ### STEP 5 - POSTING A CAR
+#### Go back to the cars tab
 #### Choose 'POST' in the dropdown menu next to the url.
 #### Below choose 'Body' and below that choose 'x-wwww-urlencoded'
 #### Now we are able to add some information to our car listing.
