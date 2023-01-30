@@ -1,5 +1,4 @@
 # Group Project 5 - CarSale :red_car:
-### Table of contents
 1. [ About ](#about)
 2. [ The Code ](#code)
 3. [ API Documentation ](#api)
