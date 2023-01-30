@@ -1,6 +1,12 @@
+1. [ About ](#about)
+2. [ API Documentation ](#api)
+
 # Group Project 5 - CarSale :red_car:
+<a name="about"></a>
 ## About
 #### The project focused mainly on the backend and error handling/defense mechanisms
+
+<a name="api"></a>
 ## API Documentation 
 
 ### STEP 1 - Open App
