@@ -2,9 +2,9 @@ const rateLimit = require('express-rate-limit');
 
 // Rate Limiting
 const postLimiter = rateLimit({
-    windowMs: 10 * 60 * 1000, // 10min
+    windowMs: 720 * 60 * 1000, // 12 hrs
     max: 3,
-    message: "Too many requests, please try again in 10 mins"
+    message: "Too many posts, please try again in 12 hours"
 })
 
 const loginLimiter = rateLimit({

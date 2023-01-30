@@ -1,6 +1,21 @@
 # Group Project 5 - CarSale :red_car:
+### Table of contents
+1. [ About ](#about)
+2. [ The Code ](#code)
+3. [ API Documentation ](#api)
+
+<a name="about"></a>
 ## About
 #### The project focused mainly on the backend and error handling/defense mechanisms
+
+<a name="code"></a>
+## The Code
+### Inside the backend folder there is the server.js file and 5 folders; config, controllers, middleware, models, routes.
+#### Config
+##### 
+
+
+<a name="api"></a>
 ## API Documentation 
 
 ### STEP 1 - Open App
