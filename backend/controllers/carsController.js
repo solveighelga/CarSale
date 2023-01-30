@@ -60,17 +60,16 @@ const updateCar = asyncHandler(async (req, res) => {
 // desc : Delete car
 // route : DELETE /api/cars/:id
 // access : private
-const deleteCar = asyncHandler(async (req, res) => {
+const deleteCar= asyncHandler (async(req, res)=> {
     const car = await Car.findById(req.params.id)
 
-    if(!car) {
+    if(!car){
         res.status(400)
-        throw new Error('Goal not found')
-    }
-    
-    await car.remove()
+        throw new Error('car not found')
 
-    res.status(200).json({ id : req.params.id})
+    }
+    await car.remove()
+    res.status(200).json({id: req.params.id})
 })
 
 module.exports = {

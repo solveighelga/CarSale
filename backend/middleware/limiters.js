@@ -1,6 +1,6 @@
 const rateLimit = require('express-rate-limit');
 
-// Rate Limiting, middleware?
+// Rate Limiting
 const postLimiter = rateLimit({
     windowMs: 10 * 60 * 1000, // 10min
     max: 3,
