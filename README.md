@@ -30,6 +30,7 @@
 #### :partying_face: Result: you should now see all of the cars that have been posted.  
 
 ### STEP 4 - CREATING A USER
+ <sup>If you want to skip this part you can go straight to **step 5** with a premade username</sup>
 #### 1. Open a new window, enter the url again but remove cars and change the ending to users
 #### 2. Choose 'POST' from the dropdown list next to the url
 #### 3. Below choose 'Body' and below that choose 'x-wwww-urlencoded'
@@ -50,7 +51,9 @@
 #### 5. Add the following to 'KEY':
 ##### :ballot_box_with_check: email
 ##### :ballot_box_with_check: password
-#### 6. Enter the email address and password you created before
+#### 6. Enter the email address and password you created before OR use the preexisting one here below 
+email: tskoli@tskoli.is 
+password: 12345
 #### 7. Press Send <sup>Blue button next to the url</sup>
 #### :partying_face: Result: Congrats! you are now logged in as a user and are able to 'POST' a car if you can see your id, name, email and token.
 
