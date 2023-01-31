@@ -1,36 +1,33 @@
 # Group Project 5 - CarSale :red_car:
 1. [ About ](#about)
-2. [ The Code ](#code)
-3. [ API Documentation ](#api)
+2. [ API Documentation ](#api)
 
 <a name="about"></a>
 ## About
-#### The project focused mainly on the backend and error handling/defense mechanisms
-
-<a name="code"></a>
-## The Code
-### Inside the backend folder there is the server.js file and 5 folders; config, controllers, middleware, models, routes.
-#### Config
-##### 
-
+#### The App for this project focused mainly on the backend and error handling/defense mechanisms
+##### It consists of a database about cars for sale.
+##### After you create an account you can post, update and delete information about the car you wish to sell. 
+##### The user is the only one with authorisation to update and delete the information they post
 
 <a name="api"></a>
 ## API Documentation 
 
 ### STEP 1 - Open App
- #### Open (or download) the Postman Desktop App. 
+ #### Open your Postman Desktop App.
+ ##### If you do not have the Desktop App visit https://www.postman.com/ and follow the steps below.
+ 
 
 ### STEP 2 - CONNECTING TO THE SERVER VIA URL
- #### Enter the following url: xxxxx
+ #### Enter the following url: https://car-sale-silk.vercel.app/api/cars
 
 ### STEP 3 - "GETTING" all the cars that have been created
  #### 1. Choose 'GET' from the dropdown list next to the url
  #### 2. Press Send <sup>Blue button next to the url</sup>
  #### :partying_face: Result: you should now see all of the cars that have been posted.  
-
+ 
 ### STEP 4 - CREATING A USER
  <sup>If you want to skip this part you can go straight to **step 5** with a premade username</sup>
- #### 1. Open a new window, enter the url again but remove cars and change the ending to users
+ #### 1. Open a new window, enter the url again but remove cars and replace with **users** (https://car-sale-silk.vercel.app/api/users)
  #### 2. Choose 'POST' from the dropdown list next to the url
  #### 3. Below choose 'Body' and below that choose 'x-wwww-urlencoded'
  #### 4. Now we are able to post a new user but first we have to have some information.
@@ -43,7 +40,7 @@
  #### :partying_face: Result: you should now see your id, name, email and token.
 
 ### STEP 5 - LOGIN
- #### 1. Open a new window, enter the url again but add to the ending users /login
+ #### 1. Open a new window, enter the url again but add to the ending **login** https://car-sale-silk.vercel.app/api/users/login
  #### 2. Choose 'POST' in the dropdown menu next to the url.
  #### 3. Below choose 'Body' and below that choose 'x-wwww-urlencoded'
  #### 4. Now we are able to "login# but first we have to have some information.
