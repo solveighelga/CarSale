@@ -12,6 +12,10 @@ connectDB()
 
 const app = express()
 
+// Create GET request
+app.get("/", (req, res) => {
+    res.send("Express on Vercel");
+  });
 
 app.use(cors()) 
 // We would use this defense mechanism when we have our frontend
