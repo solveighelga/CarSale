@@ -24,9 +24,10 @@ const registerUser = asyncHandler (async (req, res) => {
 
     // Hash password
     const salt = await bcrypt.genSalt(10)
-    console.log(salt)
+    // salted password (abc12345) = $2a$10$F3QU08qICAdE9PuPVQ/CE.
+    
     const hashedPassword = await bcrypt.hash(password, salt)
-    console.log(hashedPassword)
+    // hashed & salted pw (abc12345) = $2a$10$F3QU08qICAdE9PuPVQ/CE.KO2PB.u5RjdtvvlZUvKgrKe6b5Yhsa2
 
     // Create user
     const user = await User.create({

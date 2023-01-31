@@ -13,7 +13,10 @@ connectDB()
 const app = express()
 
 
-app.use(cors())
+app.use(cors()) 
+// We would use this defense mechanism when we have our frontend
+// With this code the only url that can do get, put, post and delete request
+// is wwww.carsales.com
 /*
 app.use(cors({
     origin: 'www.carsales.com',
