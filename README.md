@@ -29,7 +29,7 @@
  <sup>If you want to skip this part you can go straight to **step 5** with a premade username</sup>
  #### 1. Open a new window, enter the url again but remove cars and replace with **users** (https://car-sale-silk.vercel.app/api/users)
  #### 2. Choose 'POST' from the dropdown list next to the url
- #### 3. Below choose 'Body' and below that choose 'x-wwww-urlencoded'
+ #### 3. Below choose 'Body' and below that choose 'x-www-urlencoded'
  #### 4. Now we are able to post a new user but first we have to have some information.
  #### 5. Add the following to 'KEY':
   ##### :ballot_box_with_check: name
@@ -42,7 +42,7 @@
 ### STEP 5 - LOGIN
  #### 1. Open a new window, enter the url again but add to the ending **login** https://car-sale-silk.vercel.app/api/users/login
  #### 2. Choose 'POST' in the dropdown menu next to the url.
- #### 3. Below choose 'Body' and below that choose 'x-wwww-urlencoded'
+ #### 3. Below choose 'Body' and below that choose 'x-www-urlencoded'
  #### 4. Now we are able to "login# but first we have to have some information.
  #### 5. Add the following to 'KEY':
   ##### :ballot_box_with_check: email
@@ -56,7 +56,7 @@
 ### STEP 5 - POSTING A CAR
  #### 1. Go back to the cars tab
  #### 2. Choose 'POST' in the dropdown menu next to the url.
- #### 3. Below choose 'Body' and below that choose 'x-wwww-urlencoded'
+ #### 3. Below choose 'Body' and below that choose 'x-www-urlencoded'
  #### 4. Now we are able to add some information to our car listing.
  #### 5. Add the following to 'KEY':
   ##### :ballot_box_with_check: name
@@ -71,7 +71,7 @@
  #### 6. Now you are able to add a 'VALUE' to your key, example/ :ballot_box_with_check: name SUBARU
 
 ### STEP 5.1 - POSTING A CAR
- #### 1. To be able to 'POST' a car you need authentication. This is where we will need to go back to our login tab and copy the "token" information
+ #### 1. To be able to 'POST' a car you need authorization. This is where we will need to go back to our login tab and copy the "token" information
  <sup>only copy the text inside the quotation marks "token": " **copy this text** "</sup>
  #### 2. Go back to your car tab and where we selected 'Body' before now we want to select 'Authorization'
  ##### 3. Next to **Type** select 'Bearer Token' from the dropdown menu
@@ -82,7 +82,7 @@
 ### STEP 6 - UPDATING A CAR
 <sup>make sure you are on the car ulr where you made a 'POST' before</sup>
  #### 1. Choose 'PUT' in the dropdown menu next to the url.
- #### 2. To be able to update you need authentication, this is where the **car id** comes in.
+ #### 2. To be able to update you need authorization, this is where the **car id** comes in.
  #### 3. Locate the id from the 'GET' result <sup>only copy the text inside the quotation marks "_id": " **copy this number** "</sup>
  #### 4. Add the id to the url with a / symbol between
  #### 5. Now you are able to update a value
@@ -92,7 +92,7 @@
 ### STEP 7 - DELETING A CAR
 <sup>make sure you are on the car ulr where you made a 'PUT' before</sup>
  #### 1. Choose 'DELETE' in the dropdown menu next to the url.
- #### 2. To be able to update you need authentication, this is where the **car id** comes in.
+ #### 2. To be able to update you need authorization, this is where the **car id** comes in.
  #### 3. Locate the id from the 'GET' result
  #### 4. Add the id to the url with a / symbol between
  #### 5. Now you are able to delete the 'POST' that belongs to the id
