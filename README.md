@@ -6,17 +6,17 @@
 ## About
 #### The App for this project focused mainly on the backend and error handling/defense mechanisms
 ##### It consists of a database about cars for sale.
-##### After you create an account you can post, update and delete information about the car you wish to sell. 
+##### After you create an account you can post, update and delete information about the car you wish to sell.
 ##### The user is the only one with authorisation to update and delete the information they post
 
 <a name="api"></a>
 ## API Documentation 
 
 ### STEP 1 - Open App
- #### Open your Postman Desktop App.
- ##### If you do not have the Desktop App visit https://www.postman.com/ and follow the steps below.
- 
-
+ #### 1. Open your Postman Desktop App.
+ ##### 2. If you do not have the Desktop App visit https://www.postman.com/
+  <sup>Using Postman.com you will need to locate where it says **Get started with Postman** and below choose **Start with something new**, Next select **HTTP Request**</sup>
+  
 ### STEP 2 - CONNECTING TO THE SERVER VIA URL
  #### Enter the following url: https://car-sale-silk.vercel.app/api/cars
 
