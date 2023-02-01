@@ -16,6 +16,8 @@
  #### 1. Open your Postman Desktop App.
  ##### 2. If you do not have the Desktop App visit https://www.postman.com/ and Sign up for free.
   <sup>When logged in you will need to locate where it says **Get started with Postman** and below choose **Start with something new**, Next select **HTTP Request**</sup>
+  ![getStarted](images/getStarted.png)
+  ![httpReq](images/httpReq.png)
   
 ### STEP 2 - CONNECTING TO THE SERVER VIA URL
  #### Enter the following url: https://car-sale-silk.vercel.app/api/cars
@@ -24,6 +26,7 @@
  #### 1. Choose 'GET' from the dropdown list next to the url
  #### 2. Press Send <sup>Blue button next to the url</sup>
  #### :partying_face: Result: you should now see all of the cars that have been posted.  
+ ![get](images/get.png)
  
 ### STEP 4 - CREATING A USER
  <sup>If you want to skip this part you can go straight to **step 5** with a premade username</sup>
@@ -36,8 +39,9 @@
   ##### :ballot_box_with_check: email
   ##### :ballot_box_with_check: password
  #### 6. Now you are able to add a 'VALUE' to your key, example/ :ballot_box_with_check: name Tskoli
- #### 7. Press Send <sup>Blue button next to the url</sup>
+ #### 7. Press Send
  #### :partying_face: Result: you should now see your id, name, email and token.
+ ![get](images/users.png)
 
 ### STEP 5 - LOGIN
  #### 1. Open a new window, enter the url again but add to the ending **login** https://car-sale-silk.vercel.app/api/users/login
@@ -50,8 +54,9 @@
  #### 6. Enter the email address and password you created before OR use the preexisting one here below 
  email: tskoli@tskoli.is 
  password: 12345
- #### 7. Press Send <sup>Blue button next to the url</sup>
+ #### 7. Press Send
  #### :partying_face: Result: Congrats! you are now logged in as a user and are able to 'POST' a car if you can see your id, name, email and token.
+ ![get](images/login.png)
 
 ### STEP 6 - POSTING A CAR
  #### 1. Go back to the cars tab
@@ -69,6 +74,7 @@
   ##### :ballot_box_with_check: price
   ##### :ballot_box_with_check: photo  
  #### 6. Now you are able to add a 'VALUE' to your key, example/ :ballot_box_with_check: name SUBARU
+ ![get](images/post.png)
 
 ### STEP 6.1 - POSTING A CAR
  #### 1. To be able to 'POST' a car you need authorization. This is where we will need to go back to our login tab and copy the "token" information
@@ -76,8 +82,9 @@
  #### 2. Go back to your car tab and where we selected 'Body' before now we want to select 'Authorization'
  ##### 3. Next to **Type** select 'Bearer Token' from the dropdown menu
  ##### 4. Paste your Token in the input field.
- #### 5. Press Send <sup>Blue button next to the url</sup>
+ #### 5. Press Send
  #### :partying_face: Result: Congrats! you have now made your first 'POST' and should see the information displayed with your username.
+  ![get](images/bearerToken.png)
 
 ### STEP 7 - UPDATING A CAR
 <sup>make sure you are on the car ulr where you made a 'POST' before</sup>
@@ -86,8 +93,9 @@
  #### 3. Locate the id from the 'GET' result <sup>only copy the text inside the quotation marks "_id": " **copy this number** "</sup>
  #### 4. Add the id to the url with a / symbol between
  #### 5. Now you are able to update a value
- #### 6. Press Send <sup>Blue button next to the url</sup>
+ #### 6. Press Send
  #### :partying_face: Result: The value you changed should be updated!
+  ![get](images/put.png)
 
 ### STEP 8 - DELETING A CAR
 <sup>make sure you are on the car ulr where you made a 'PUT' before</sup>
@@ -96,6 +104,9 @@
  #### 3. Locate the id from the 'GET' result
  #### 4. Add the id to the url with a / symbol between
  #### 5. Now you are able to delete the 'POST' that belongs to the id
- #### 6. Press Send <sup>Blue button next to the url</sup>
+ #### 6. Press Send
  #### :partying_face: Result: The post you made should now be replaced with only the id number and it should no longer be visable in the 'GET' results!
  <sup>remember to remove the id number from the url when you want to 'GET' cars</sup>
+  ![get](images/delete.png)
+  ![get](images/deleteId.png)
+
