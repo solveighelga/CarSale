@@ -10,17 +10,21 @@ const User = require('../models/userModel')
 const registerUser = asyncHandler (async (req, res) => {
     const  {name, email, password } = req.body
 
+
+    let strongPassword = new RegExp('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{8,})')
+
     if(!name || !email, !password){
         res.status(400)
         throw new Error('Please add all fields')
     }
-    // Check if user exists.
-    const userExists = await User.findOne({email})
 
-    if(userExists){
+    if(!strongPassword.test(password)){
         res.status(400)
-        throw new Error('User Already exists')
+        throw new Error('Password not strong enough. Needs to include one uppercase letter, one lowercase letter, one digit, one special character, one number and at least eight character long examle: aBc.12345 ')
+
     }
+ 
+
 
     // Hash password
     const salt = await bcrypt.genSalt(10)
