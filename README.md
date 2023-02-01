@@ -1,6 +1,7 @@
 # Group Project 5 - CarSale :red_car:
 1. [ About ](#about)
 2. [ API Documentation ](#api)
+3. [ Postman ] (#postman)
 
 <a name="about"></a>
 ## About
@@ -8,6 +9,10 @@
 ##### It consists of a database about cars for sale.
 ##### After you create an account you can post, update and delete information about the car you wish to sell.
 ##### The user is the only one with authorisation to update and delete the information they post
+
+<a name="postman"></a>
+## Postman
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/24599353-bad4cdf8-a196-4b35-ad94-66e570b9c372?action=collection%2Ffork&collection-url=entityId%3D24599353-bad4cdf8-a196-4b35-ad94-66e570b9c372%26entityType%3Dcollection%26workspaceId%3D1f365650-05c0-4b30-bc5a-c988a3085bf4)
 
 <a name="api"></a>
 ## API Documentation 
