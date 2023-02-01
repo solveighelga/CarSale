@@ -14,8 +14,8 @@
 
 ### STEP 1 - Open App
  #### 1. Open your Postman Desktop App.
- ##### 2. If you do not have the Desktop App visit https://www.postman.com/
-  <sup>Using Postman.com you will need to locate where it says **Get started with Postman** and below choose **Start with something new**, Next select **HTTP Request**</sup>
+ ##### 2. If you do not have the Desktop App visit https://www.postman.com/ and Sign up for free.
+  <sup>When logged in you will need to locate where it says **Get started with Postman** and below choose **Start with something new**, Next select **HTTP Request**</sup>
   
 ### STEP 2 - CONNECTING TO THE SERVER VIA URL
  #### Enter the following url: https://car-sale-silk.vercel.app/api/cars
