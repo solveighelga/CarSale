@@ -53,7 +53,7 @@
  #### 7. Press Send <sup>Blue button next to the url</sup>
  #### :partying_face: Result: Congrats! you are now logged in as a user and are able to 'POST' a car if you can see your id, name, email and token.
 
-### STEP 5 - POSTING A CAR
+### STEP 6 - POSTING A CAR
  #### 1. Go back to the cars tab
  #### 2. Choose 'POST' in the dropdown menu next to the url.
  #### 3. Below choose 'Body' and below that choose 'x-www-urlencoded'
@@ -70,7 +70,7 @@
   ##### :ballot_box_with_check: photo  
  #### 6. Now you are able to add a 'VALUE' to your key, example/ :ballot_box_with_check: name SUBARU
 
-### STEP 5.1 - POSTING A CAR
+### STEP 6.1 - POSTING A CAR
  #### 1. To be able to 'POST' a car you need authorization. This is where we will need to go back to our login tab and copy the "token" information
  <sup>only copy the text inside the quotation marks "token": " **copy this text** "</sup>
  #### 2. Go back to your car tab and where we selected 'Body' before now we want to select 'Authorization'
@@ -79,7 +79,7 @@
  #### 5. Press Send <sup>Blue button next to the url</sup>
  #### :partying_face: Result: Congrats! you have now made your first 'POST' and should see the information displayed with your username.
 
-### STEP 6 - UPDATING A CAR
+### STEP 7 - UPDATING A CAR
 <sup>make sure you are on the car ulr where you made a 'POST' before</sup>
  #### 1. Choose 'PUT' in the dropdown menu next to the url.
  #### 2. To be able to update you need authorization, this is where the **car id** comes in.
@@ -89,7 +89,7 @@
  #### 6. Press Send <sup>Blue button next to the url</sup>
  #### :partying_face: Result: The value you changed should be updated!
 
-### STEP 7 - DELETING A CAR
+### STEP 8 - DELETING A CAR
 <sup>make sure you are on the car ulr where you made a 'PUT' before</sup>
  #### 1. Choose 'DELETE' in the dropdown menu next to the url.
  #### 2. To be able to update you need authorization, this is where the **car id** comes in.
