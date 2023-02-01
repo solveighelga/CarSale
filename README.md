@@ -53,7 +53,7 @@
   ##### :ballot_box_with_check: password
  #### 6. Enter the email address and password you created before OR use the preexisting one here below 
  email: tskoli@tskoli.is 
- password: 12345
+ password: Tskoli.12345
  #### 7. Press Send
  #### :partying_face: Result: Congrats! you are now logged in as a user and are able to 'POST' a car if you can see your id, name, email and token.
  ![get](images/login.png)
