@@ -54,7 +54,7 @@ const updateCar = asyncHandler(async (req, res) => {
         new: true,
     })
 
-    res.status(200).json(updatedCar)
+    res.status(200).json({message: "Success! Car updated!"}, updatedCar)
 })
 
 // desc : Delete car
@@ -69,7 +69,7 @@ const deleteCar= asyncHandler (async(req, res)=> {
 
     }
     await car.remove()
-    res.status(200).json({id: req.params.id})
+    res.status(200).json({id: req.params.id, message: "Success! Car deleted!"})
 })
 
 module.exports = {
