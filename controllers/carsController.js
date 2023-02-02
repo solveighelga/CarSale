@@ -54,7 +54,7 @@ const updateCar = asyncHandler(async (req, res) => {
         new: true,
     })
 
-    res.status(200).json({message: "Success! Car updated!"}, updatedCar)
+    res.status(200).json(updatedCar)
 })
 
 // desc : Delete car
