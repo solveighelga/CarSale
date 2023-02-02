@@ -1,7 +1,8 @@
 # Group Project 5 - CarSale :red_car:
 1. [ About ](#about)
-2. [ API Documentation ](#api)
-3. [ Postman ](#postman)
+2. [ Postman ](#postman)
+3. [ API Documentation ](#api)
+
 
 <a name="about"></a>
 ## About
