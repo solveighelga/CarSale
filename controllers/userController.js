@@ -10,12 +10,18 @@ const User = require('../models/userModel')
 const registerUser = asyncHandler (async (req, res) => {
     const  {name, email, password } = req.body
 
-
+    
     let strongPassword = new RegExp('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{8,})')
-
+   
     if(!name || !email, !password){
         res.status(400)
         throw new Error('Please add all fields')
+    }
+    const checkEmail = await User.findOne({email})
+
+    if (checkEmail){
+        res.status(400)
+        throw new Error('Email already exists')
     }
 
     if(!strongPassword.test(password)){
@@ -24,8 +30,6 @@ const registerUser = asyncHandler (async (req, res) => {
 
     }
  
-
-
     // Hash password
     const salt = await bcrypt.genSalt(10)
     // salted password (abc12345) = $2a$10$F3QU08qICAdE9PuPVQ/CE.
