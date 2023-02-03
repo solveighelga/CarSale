@@ -14,7 +14,7 @@
 <a name="postman"></a>
 ## Postman
 #### Click the button below and try out our API!
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/24599353-beaea62e-ba9e-4689-b5f1-b94220b63156?action=collection%2Ffork&collection-url=entityId%3D24599353-beaea62e-ba9e-4689-b5f1-b94220b63156%26entityType%3Dcollection%26workspaceId%3D1f365650-05c0-4b30-bc5a-c988a3085bf4)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/24599353-beaea62e-ba9e-4689-b5f1-b94220b63156?action=collection%2Ffork&collection-url=entityId%3D24599353-beaea62e-ba9e-4689-b5f1-b94220b63156%26entityType%3Dcollection%26workspaceId%3D1f365650-05c0-4b30-bc5a-c988a3085bf4) <sup>Please do not save any changes that you make</sup>
 
 <a name="api"></a>
 ## API Documentation 
